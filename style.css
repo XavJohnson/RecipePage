@@ -1,0 +1,118 @@
+@font-face {
+    font-family: Outfit;
+    src: url("assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Young Serif";
+    src: url("/assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+body {
+    height: auto;
+    background-color: hwb(31 85% 5%);
+    font-family: Outfit, serif;
+    display: flex;
+    justify-content: center;
+    color: hsl(30, 10%, 34%);
+}
+
+#center-div {
+    background-color: hsl(0, 0%, 100%);
+    height: fit-content;
+    width: 50vw;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    border-radius: 20px;
+    padding: 3% 3% 3% 3%;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: "Young Serif";
+    font-weight: 400;
+    margin-top: 25px;
+    color: black;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: hsl(24, 5%, 18%);
+}
+
+#prep-time {
+    border-radius: 15px;
+    background-color: hsl(330, 100%, 98%);
+    padding: 7px 30px;
+    margin-bottom: 35px;
+    border-bottom: none;
+}
+
+ol,
+ul:not(#time-list) {
+    padding-left: 35px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding-bottom: 25px;
+}
+
+#time-list li::marker {
+    font-size: 0.7em;
+    color: hsl(332, 51%, 32%);
+}
+
+#ingredients-list li::marker {
+    font-size: 0.7em;
+    color: hsl(14, 45%, 36%);
+}
+
+li {
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+h2 {
+    font-family: "Young Serif";
+    font-weight: 400;
+    font-size: 1.8em;
+    color: hsl(14, 45%, 36%);
+}
+
+#instructions-list li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+th {
+    padding-left: 30px;
+    font-weight: 400;
+}
+
+td {
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+
+th,
+td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+}
